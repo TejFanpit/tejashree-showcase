@@ -12,7 +12,7 @@ export const AboutSection = () => {
               About Me
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              I'm a passionate computer science student with a strong foundation in AI/ML and competitive programming, 
+              I'm a passionate computer science student with a strong foundation in systems and large scale systems and backend development, 
               actively contributing to innovative projects and building scalable solutions.
             </p>
           </div>
@@ -68,10 +68,10 @@ export const AboutSection = () => {
                     </div>
                   </div>
                   
-                  <div className="flex items-start space-x-3">
+                  <div className="flex items-start space-x-3 p-3 bg-tech-cyan/10 rounded-lg border border-tech-cyan/20">
                     <Trophy className="h-5 w-5 text-tech-cyan mt-1 flex-shrink-0" />
                     <div>
-                      <p className="font-medium">Sports Captain</p>
+                      <p className="font-medium text-tech-cyan">Sports Captain & Tennis Player</p>
                       <p className="text-sm text-muted-foreground">SNUC Women's Tennis Team</p>
                     </div>
                   </div>
@@ -93,10 +93,10 @@ export const AboutSection = () => {
             <Card className="bg-gradient-card border-border/50 hover:shadow-elegant transition-all duration-300 group">
               <CardContent className="p-6 text-center">
                 <div className="text-3xl font-bold text-tech-purple mb-2 group-hover:scale-110 transition-transform">
-                  1545
+                  350+
                 </div>
-                <p className="text-sm text-muted-foreground">LeetCode Contest Rating</p>
-                <Badge variant="secondary" className="mt-2">100 Days Badge</Badge>
+                <p className="text-sm text-muted-foreground">Problems Solved</p>
+                <Badge variant="secondary" className="mt-2">Multiple Platforms</Badge>
               </CardContent>
             </Card>
 

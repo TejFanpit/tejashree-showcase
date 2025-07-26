@@ -31,7 +31,7 @@ export const ProjectsSection = () => {
         "Auto-generated portfolios"
       ],
       duration: "Feb 2025",
-      status: "Hackathon Winner",
+      status: "Hackathon Finalist",
       icon: FileText,
       color: "tech-cyan"
     },
@@ -74,7 +74,7 @@ export const ProjectsSection = () => {
         return "bg-info/20 text-info";
       case "Completed":
         return "bg-success/20 text-success";
-      case "Hackathon Winner":
+      case "Hackathon Finalist":
         return "bg-warning/20 text-warning";
       default:
         return "bg-muted/20 text-muted-foreground";
@@ -156,24 +156,6 @@ export const ProjectsSection = () => {
                     </div>
                   </div>
 
-                  <div className="flex space-x-3 pt-4">
-                    <Button 
-                      variant="outline" 
-                      size="sm" 
-                      className="flex-1 border-tech-purple/30 text-tech-purple hover:bg-tech-purple/10"
-                    >
-                      <Github className="h-4 w-4 mr-2" />
-                      Code
-                    </Button>
-                    <Button 
-                      variant="outline" 
-                      size="sm" 
-                      className="flex-1 border-tech-cyan/30 text-tech-cyan hover:bg-tech-cyan/10"
-                    >
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      Demo
-                    </Button>
-                  </div>
                 </CardContent>
               </Card>
             ))}

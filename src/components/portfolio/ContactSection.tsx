@@ -24,9 +24,9 @@ export const ContactSection = () => {
     },
     {
       icon: Phone,
-      label: "Phone",
+      label: "WhatsApp",
       value: "+91-8838727496",
-      href: "tel:+918838727496",
+      href: "https://wa.me/918838727496",
       color: "tech-cyan"
     },
     {
@@ -41,28 +41,28 @@ export const ContactSection = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/tejashreev1804",
+      href: "https://github.com/Tejahereppl?tab=repositories",
       color: "tech-purple",
       description: "View my code repositories"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/tejashreev",
+      href: "https://www.linkedin.com/in/tejashree-v-97496722a/",
       color: "tech-cyan",
       description: "Connect professionally"
     },
     {
       icon: Code,
       label: "LeetCode",
-      href: "https://leetcode.com/tejashreev",
+      href: "https://leetcode.com/u/tejashreev1804/",
       color: "warning",
       description: "Check my coding progress"
     },
     {
       icon: Trophy,
       label: "Codeforces",
-      href: "https://codeforces.com/profile/tejashreev",
+      href: "https://codeforces.com/profile/tejashreev1804",
       color: "info",
       description: "Competitive programming profile"
     }
@@ -224,7 +224,7 @@ export const ContactSection = () => {
                       variant="outline" 
                       size="lg" 
                       className="border-tech-purple text-tech-purple hover:bg-tech-purple/10"
-                      onClick={() => window.open('https://linkedin.com/in/tejashreev', '_blank')}
+                      onClick={() => window.open('https://www.linkedin.com/in/tejashree-v-97496722a/', '_blank')}
                     >
                       <Linkedin className="mr-2 h-5 w-5" />
                       Connect on LinkedIn
