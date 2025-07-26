@@ -10,25 +10,37 @@ export const ExperienceSection = () => {
       duration: "Jun 2025 - Ongoing",
       type: "Current",
       achievements: [
-        "Building Loyalty Platform: Developing Fanpit's first backend system for user rewards and redemptions",
-        "API Development: Contributing to scalable backend infrastructure with TypeScript and NestJS"
+        "Engineered Fanpit's first loyalty and rewards backend platform, enabling seamless user redemptions and engagement",
+        "Designed and developed scalable REST APIs using TypeScript and NestJS to power the core platform services",
+        "Implementing a high-performance search engine with Typesense, enabling fast and accurate discovery of brands, products, and events",
+        "Automating data synchronization by building a MongoDB webhook pipeline to cache updates and dynamically index data on an isolated Typesense server, reducing operational costs"
       ],
-      technologies: ["TypeScript", "NestJS", "Backend Development", "API Design"],
+      technologies: ["TypeScript", "NestJS", "Typesense", "MongoDB", "Backend Development", "API Design"],
       icon: Database
     },
+    
     {
       title: "AI Solutions Intern",
       company: "InnovistAI Solutions", 
       duration: "May 2025 - Jun 2025",
       type: "Completed",
       achievements: [
-        "Cost-Effective Bot for Algorims: Built the most cost-efficient website assistant inspired by Samsung's conversational bot, improving visitor conversion rate by 30%",
-        "Automated Social Media Complaints for IOB: Created a comprehensive bot for Indian Overseas Bank to monitor comments across YouTube, Instagram, Facebook, and Twitter, with automated complaint detection and draft reply generation"
+        "Cost-Effective Bot for Algorithms: Developed an ultra cost-efficient website assistant inspired by Samsung's conversational bot, achieving a 30% increase in visitor conversion rate through optimized NLP pipelines and minimal server usage",
+        "Automated Social Media Complaints for IOB: Designed and deployed a scalable, AI-driven social media customer support bot for Indian Overseas Bank that runs on a scheduler to continuously scan direct messages and comments across YouTube, Instagram, Facebook, and Twitter. Built an intelligent complaint classification pipeline using NLP models (spaCy) to distinguish actionable complaints from general queries, followed by dynamic draft reply generation using LLM clients (Gemini & Claude). Implemented a human-in-the-loop approval queue that allows administrators to review, approve, or modify AI-generated replies, after which the bot autonomously posts responses on IOB’s behalf. This system reduced manual intervention by over 70%, accelerated customer response times, and enabled IOB to handle significantly higher customer interaction volumes."
       ],
-      technologies: ["AI/ML", "Chatbot Development", "Social Media API", "Automation"],
+      technologies: [
+        "Playwright",
+        "Gemini & Claude Clients",
+        "spaCy",
+        "Twitter API",
+        "Selenium",
+        "Browser Automation",
+        "FastAPI (Backend)",
+        "PostgreSQL"
+      ],
       icon: Bot
-    }
-  ];
+    }];
+    
 
   return (
     <section className="py-20 bg-surface/30">
