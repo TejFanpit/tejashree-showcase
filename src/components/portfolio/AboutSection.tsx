@@ -12,8 +12,7 @@ export const AboutSection = () => {
               About Me
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              I'm a passionate computer science student with a strong foundation in systems and large scale systems and backend development, 
-              actively contributing to innovative projects and building scalable solutions.
+            I’m a passionate Computer Science student driven by the ambition to build powerful, scalable systems that can serve millions—just like Hotstar. I leverage the power of AI and backend development to solve real-world problems, actively contributing to innovative projects and creating impactful, reliable solutions
             </p>
           </div>
 
@@ -71,7 +70,7 @@ export const AboutSection = () => {
                   <div className="flex items-start space-x-3 p-3 bg-tech-cyan/10 rounded-lg border border-tech-cyan/20">
                     <Trophy className="h-5 w-5 text-tech-cyan mt-1 flex-shrink-0" />
                     <div>
-                      <p className="font-medium text-tech-cyan">Sports Captain & Tennis Player</p>
+                      <p className="font-medium">Tennis Team Captain</p>
                       <p className="text-sm text-muted-foreground">SNUC Women's Tennis Team</p>
                     </div>
                   </div>
@@ -80,7 +79,7 @@ export const AboutSection = () => {
                     <Trophy className="h-5 w-5 text-success mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-medium">Table Tennis Player</p>
-                      <p className="text-sm text-muted-foreground">University Team Member</p>
+                      <p className="text-sm text-muted-foreground">SNUC Women's Table Tennis Team</p>
                     </div>
                   </div>
                 </div>
@@ -96,7 +95,7 @@ export const AboutSection = () => {
                   350+
                 </div>
                 <p className="text-sm text-muted-foreground">Problems Solved</p>
-                <Badge variant="secondary" className="mt-2">Multiple Platforms</Badge>
+                <Badge variant="secondary" className="mt-2">Leetcode</Badge>
               </CardContent>
             </Card>
 
